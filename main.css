@@ -9,5 +9,12 @@ body{
     font-family: 'Courier New', Courier, monospace;
     background-color: #000;
     height: 100vh;
-    
+
+}
+
+h1{
+    color: #fff;
+    font-size: 72px;
+    text-transform: uppercase;
+    text-align: center;
 }
