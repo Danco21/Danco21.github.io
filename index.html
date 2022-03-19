@@ -1,75 +1,22 @@
  <!DOCTYPE html>
-<html>
- 
- <head>
-	 <script src="index.js"></script>
-	 
-  <script type='text/javascript' src='swirl_0.8_min.js'></script>
-<script type='text/javascript'>
-	(function() {
-		// CanvasSwirl 0.8 by Andrew Stibbard: http://xhva.net  http://jsswirl.com
-		var start = function() {
-			swirl1 = new CanvasSwirl(
-				document.getElementById('swirl1_surface'),
-			{
-				"count": "100",
-				"radiusOuterMin": "50%",
-				"thicknessMin": "1",
-				"thicknessMax": "5",
-				"fadeTime": "0.5",
-				"rotationVelMin": "15",
-				"rotationVelMax": "15",
-				"originXOffsetMin": "0",
-				"originXOffsetMax": "300",
-				"originYOffsetMin": "150",
-				"originYOffsetMax": "300",
-				"distanceVelMin": "0.2",
-				"distanceVelMax": "0.2",
-				"saturationMin": "50",
-				"saturationMax": "90",
-				"lightnessMin": 20,
-				"lightnessMax": 65,
-				"hueMin": "260",
-				"hueMax": 360,
-				"opacityMin": 0.35,
-				"opacityMax": "0.6",
-				"radiusInnerMin": "55%",
-				"radiusInnerMax": "125%",
-				"shape": "random",
-				"radiusOuterMax": "100",
-				"originX": "center",
-				"originY": "center",
-				"hueIncrement": "1",
-				"opacityScaleAtCenter": "0",
-				"opacityScaleAtEdge": "0.9",
-				"opacityScaleIsRelative": true,
-				"lightnessScaleAtCenter": "1",
-				"lightnessScaleAtEdge": "1",
-				"lightnessScaleIsRelative": true,
-				"saturationScaleAtCenter": "1",
-				"saturationScaleAtEdge": "1",
-				"saturationScaleIsRelative": true,
-				"distanceJitterMin": "0.5",
-				"distanceJitterMax": "0.5",
-				"rotationJitterMin": "0.01",
-				"rotationJitterMax": "0.01"
-			}
-			);
-		};
-		if (window.addEventListener) window.addEventListener('load', start, false);
-		else if (window.attachEvent) window.attachEvent('onload', start);
-	})();
-</script>
-  
+<html lang = "en">
+  <head>
+	<meta charset ="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Daniel Cohen</title>
+	  <!-- STYLESHEET-->
+	  <link rel = "stylesheet" type ="text/css" href = "css/main.css">
+	  
 </head>
  
- 
- 
- 
 <body>
-  <body style="background-color:black;">
+  	<div id = "bg"></div>
+	<h1>Daniel Cohen</h1>
+	
+	<!--JAVASCRIPT-->
+	<script type ="text/javascript" src="js/particles.min.js"></script>
+	<script type ="text/javascript" src="js/custom.js"></script>
 
- <canvas width='1280' height='720' id='swirl1_surface'></canvas>
 
 </body>
 </html> 
