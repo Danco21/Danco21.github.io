@@ -11,6 +11,7 @@ window.onload = function(){
 window.onresize = function(){
  console.log('resizing.'); 
   resizeCanvas();
+ draw();
 
 }
 function resizeCanvas(){
