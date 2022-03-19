@@ -50,17 +50,18 @@ p{
     display:flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 25%;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+  
 }
 
 .contact {
    
     display: flex;
     flex-direction: row;
-    margin-left: 25%;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    flex-direction: column;
+  
     
   }
 
