@@ -17,6 +17,11 @@ function resizeCanvas(){
   swirl1_surface.height = window.innerHeight;
   
 }
+function prepareDocument(){
+ document.body.style.padding = "0px";
+ doucment.body.style.margin = "0px";
+ 
+}
 
 function draw(){
  let swirl1_surface = swirl1_surface.getContext("2d");
