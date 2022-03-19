@@ -19,6 +19,7 @@ h1{
     text-align: center;
     padding-top: 40vh;
     text-shadow: 0 0 10px rgba(255,255,255,.25);
+    z-index: 9999;
 }
 
 #bg{
@@ -27,4 +28,5 @@ h1{
     left:0;
     bottom: 0;
     right:0;
+    z-index: -1;
 }
