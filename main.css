@@ -47,7 +47,7 @@ h2{
 
 .contact {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     
   }
 
