@@ -30,7 +30,7 @@ h2{
     text-transform: unset;
     text-align: center;
     padding-top: 5vh;
-    text-decoration: underline;
+    /*text-decoration: underline;*/
     text-shadow: 0 0 10px rgba(255,255,255,.25);
     z-index: 9999;
 }
