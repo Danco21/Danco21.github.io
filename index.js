@@ -5,6 +5,7 @@ window.onload = function(){
   swirl1_surface = document.getElementById("swirl1_surface");
   swirl1_surface.style.backgroundColor = "#282a36";
   resizeCanvas();
+ prepareDocument();
   draw();
 }
 window.onresize = function(){
