@@ -38,6 +38,26 @@ h2{
     z-index: 9999;
 }
 
+h3{
+    color: #fff;
+    font-size: 10px;
+    text-transform: unset;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 2vh;
+    /*text-decoration: underline;*/
+    text-shadow: 0 0 10px rgba(255,255,255,.25);
+    z-index: 9999;
+}
+
+
+
+
+
+
+
+
+/*
 p{
     color: #fff;
     font-size: 10px;
@@ -45,7 +65,7 @@ p{
     font-weight: 300;
 }
 
-.links{
+#links{
     
     display:flex;
     flex-direction: column;
@@ -57,14 +77,14 @@ p{
   
 }
 
-.contact {
+#contact {
    
     display: flex;
     flex-direction: row;
   
     
   }
-
+*/
 #bg{
     position: absolute;
     top: 0;
