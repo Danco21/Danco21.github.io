@@ -40,6 +40,8 @@ h2{
 
 h3{
     display: inline;
+    width: 200px;
+    padding: 5px;
     color: #fff;
     font-size: 15px;
     text-transform: unset;
