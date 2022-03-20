@@ -40,13 +40,13 @@ h2{
 
 h3{
     display: inline;
+    text-align: right;
     width: 250px;
     padding: 20px;
     color: #fff;
     font-size: 15px;
     text-transform: unset;
     font-weight: 300;
-    text-align: right;
     padding-top: 2vh;
     /*text-decoration: underline;*/
     text-shadow: 0 0 10px rgba(255,255,255,.25);
