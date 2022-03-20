@@ -38,7 +38,7 @@ h2{
     z-index: 9999;
 }
 
-h3{
+/*h3{
     display: inline;
     text-align: right;
     width: 250px;
@@ -48,15 +48,23 @@ h3{
     text-transform: unset;
     font-weight: 300;
     padding-top: 2vh;
-    /*text-decoration: underline;*/
+    /*text-decoration: underline;
     text-shadow: 0 0 10px rgba(255,255,255,.25);
     z-index: 9999;
 }
 
+*/
 
+.contentContainer{
 
+        display: flex;
+      
+    
+}
 
-
+.linkContainer {
+    margin-left: 0;
+  }
 
 
 
