@@ -80,6 +80,11 @@ h2{
     flex-direction: row;
   }
 
+  .linkContainer i {
+    margin-right: 1rem;
+    color: white;
+  }
+
 
 
 /*
