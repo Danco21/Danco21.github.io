@@ -4,12 +4,15 @@
 
 }
 
+html{
+    overflow-y: hidden;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(2, 2, 22);
     height: 100vh;
-    overflow: hidden;
-    
+       
 
 }
 
@@ -78,6 +81,11 @@ h2{
     margin-left: 0;
     font-family: Arial, Helvetica, sans-serif;
     flex-direction: row;
+  }
+
+  .linkContainer i {
+    margin-right: 1rem;
+    color: white;
   }
 
 
