@@ -25,13 +25,7 @@ body{
     width: 700px;;
 }
 
-.backgroundContainer {
-    display: flex;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    pointer-events: none;
-  }
+
 
 h1{
     color: #fff;
